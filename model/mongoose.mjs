@@ -28,10 +28,6 @@ router.get("/grades/stats", async (req, res) => {
 // use mongoose to Create the following validation rules on the grades collection:
 // Each document must have a class_id field, which must be an integer between 0 and 300, inclusive.
     const learnerSchema = new mongoose.Schema({
-        // name: {
-        //   type: String,
-        //   required: true,
-        // },
           class_id:{
             type: "int",
             min: 0,

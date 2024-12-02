@@ -54,7 +54,7 @@ router.get("/grades/stats", async (req, res) => {
  ),
 
 
-export default mongoose.model("Learner", learnerSchema);
+export default mongoose.model("mongoose", learnerSchema);
 
 
 
